@@ -1,0 +1,30 @@
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: hsl(252, 29%, 7%);
+}
+
+h1 {
+    color: white;
+}
+
+.task {
+    margin: auto 0;
+    color: white;
+}
+
+.task:hover {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: 5px line-through rgba(255, 255, 255, 0.5);
+}
+
+.completed {
+    text-decoration: 5px solid line-through white;
+}
+
+#taskForm {
+    font-weight: bold;
+}
